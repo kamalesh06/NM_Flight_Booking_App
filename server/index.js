@@ -20,7 +20,8 @@ mongoose.connect('mongodb://localhost:27017/FlightBookingMERN', {
         useUnifiedTopology: true,
     }
 ).then(()=>{
-
+    
+    console.log(`Connected to MongoDB`);
     // All the client-server activites
 
 
